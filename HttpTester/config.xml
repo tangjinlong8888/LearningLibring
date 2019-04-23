@@ -1,0 +1,58 @@
+<http>
+
+     <interface url="http://0.0.0.0:8000/games/json">
+
+            <request method="post">
+                <argument>
+                     <field name="username" type="str" value="zhangshan" />
+                    <field name="age" type="int" value="34"/>
+                </argument>
+                <response type="json">
+                    <field name="name" type="str" required="true" value=".*"/>
+                </response>
+            </request>
+     </interface>
+
+
+     <interface url="http://0.0.0.0:8000/games/json1">
+            <request method="get">
+                <argument>
+                     <field name="username" type="str" value="zhangshan" />
+                    <field name="age" type="int" value="34"/>
+                </argument>
+                <response type="json">
+                    <field name="name" type="str" required="true" value=".*"/>
+                    <field name="nationality" type="str" required="true" value=".*"/>
+                    <field name="sd" type="int" required="true" value="15"/>
+                </response>
+            </request>
+     </interface>
+
+     <interface url="http://0.0.0.0:8000/games/json2">
+            <request method="post">
+                <argument>
+                     <field name="username" type="str" value="zhangshan" />
+                    <field name="age" type="int" value="34"/>
+                </argument>
+                <response type="json">
+                    <field name="name" type="str" required="true" value=".*"/>
+                    <field name="age" type="int" required="true" value="23"/>
+                    <field name="sd" type="int" required="true" value="15"/>
+                </response>
+            </request>
+     </interface>
+
+     <interface url="http://0.0.0.0:8000/games/json3">
+            <request method="post">
+                <argument>
+                     <field name="username" type="str" value="zhangshan" />
+                    <field name="age" type="int" value="34"/>
+                </argument>
+                <response type="text">.*
+                </response>
+            </request>
+     </interface>
+
+
+
+</http>

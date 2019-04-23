@@ -1,0 +1,14 @@
+<view>
+<view wx:if="{{!searchPanel}}" class="container">
+   <view class="sub-container">
+    <image class="head-img" src="/images/book/quality.png" />
+    <view class="books-container">
+
+    <!-- 通过遍历网络请求加载的books,来把图书都显示出来 -->
+      <block data-index="{{index}}" data-all='{{books}}' wx:for="{{books}}" wx:key=''>
+        <v-book books='{{books}}' book="{{item}}" class="book" />
+      </block>
+    </view>
+  </view> 
+</view>
+</view>

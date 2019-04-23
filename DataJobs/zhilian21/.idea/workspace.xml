@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aae0ff57-cd21-47ad-8e71-798977aac058" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/zhilian21$test.coverage" NAME="test Coverage Results" MODIFIED="1554861256339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhilian2/spiders" />
+    <SUITE FILE_PATH="coverage/zhilian21$btree.coverage" NAME="btree Coverage Results" MODIFIED="1555386144859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zhilian2$transCookie.coverage" NAME="transCookie Coverage Results" MODIFIED="1553669169338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhilian2" />
+    <SUITE FILE_PATH="coverage/zhilian21$xici.coverage" NAME="xici Coverage Results" MODIFIED="1553863985246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhilian2/spiders" />
+    <SUITE FILE_PATH="coverage/zhilian21$spider.coverage" NAME="spider Coverage Results" MODIFIED="1554360876485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhilian2/spiders" />
+    <SUITE FILE_PATH="coverage/zhilian21$getip__1_.coverage" NAME="getip (1) Coverage Results" MODIFIED="1554292040141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhilian2" />
+    <SUITE FILE_PATH="coverage/zhilian2$aa.coverage" NAME="aa Coverage Results" MODIFIED="1553594642309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhilian2" />
+    <SUITE FILE_PATH="coverage/zhilian2$run.coverage" NAME="run Coverage Results" MODIFIED="1553647719055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhilian2" />
+    <SUITE FILE_PATH="coverage/zhilian21$bb.coverage" NAME="bb Coverage Results" MODIFIED="1554089706108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhilian3" />
+    <SUITE FILE_PATH="coverage/zhilian2$qqq.coverage" NAME="qqq Coverage Results" MODIFIED="1553567570141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhilian2" />
+    <SUITE FILE_PATH="coverage/zhilian21$run.coverage" NAME="run Coverage Results" MODIFIED="1554803280604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhilian2" />
+    <SUITE FILE_PATH="coverage/zhilian21$GluttonousSnake.coverage" NAME="GluttonousSnake Coverage Results" MODIFIED="1554107813937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhilian3" />
+    <SUITE FILE_PATH="coverage/zhilian21$run_spider.coverage" NAME="run_spider Coverage Results" MODIFIED="1555316742864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhilian2" />
+    <SUITE FILE_PATH="coverage/zhilian2$zhilian_zp.coverage" NAME="zhilian_zp Coverage Results" MODIFIED="1553501711468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhilian2/spiders" />
+    <SUITE FILE_PATH="coverage/zhilian21$getip.coverage" NAME="getip Coverage Results" MODIFIED="1554288938586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhilian3" />
+    <SUITE FILE_PATH="coverage/zhilian21$middlewares.coverage" NAME="middlewares Coverage Results" MODIFIED="1554344073623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhilian2" />
+    <SUITE FILE_PATH="coverage/zhilian21$spider__1_.coverage" NAME="spider (1) Coverage Results" MODIFIED="1554361139048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhilian2" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zhilian2/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="234" column="41" lean-forward="true" selection-start-line="234" selection-start-column="30" selection-end-line="234" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/btree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhilian2/run_spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="925">
+              <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhilian2/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2975">
+              <caret line="119" selection-start-line="118" selection-end-line="119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhilian2/spiders/Internet/python.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1375">
+              <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhilian2/spiders/Internet/suanfagcs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhilian2/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhilian2/middlewares.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="44" selection-start-line="44" selection-end-line="44" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/data_analysis" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_dl.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_fz.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_gz.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_hf.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_hlb.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_huiz.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_hz.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_jn.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_nb.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_nj.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_qd.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_sh.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_sjz.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_suz.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_sy.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_sz.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_tj.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_wh.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_wx.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_xa.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_xm.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/python/python_zz.py" />
+        <option value="$PROJECT_DIR$/zhilian2/settings.py" />
+        <option value="$PROJECT_DIR$/data_analysis/good/views.py" />
+        <option value="$PROJECT_DIR$/data_analysis/good/serializers.py" />
+        <option value="$PROJECT_DIR$/data_analysis/good/tests.py" />
+        <option value="$PROJECT_DIR$/data_analysis/good/urls.py" />
+        <option value="$PROJECT_DIR$/zhilian2/items.py" />
+        <option value="$PROJECT_DIR$/zhilian2/middlewares.py" />
+        <option value="$PROJECT_DIR$/data_analysis/templates/index.html" />
+        <option value="$USER_HOME$/Documents/WeChat Files/yj15736623778/Files/index(1).html" />
+        <option value="$PROJECT_DIR$/data_analysis/good_proj/urls.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/Internet/android.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/Internet/java.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/Internet/meigong.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/Internet/php.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/Internet/python.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/Internet/sdxl.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/Internet/UI.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/Internet/web.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/Internet/zhilian_zp.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/Internet/web_all.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/Internet/java_all.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/Internet/python_all.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/Internet/phpall.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/Internet/uiall.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/Internet/androidall.py" />
+        <option value="$PROJECT_DIR$/zhilian2/spiders/Internet/suanfagcs.py" />
+        <option value="$PROJECT_DIR$/zhilian2/run_spider.py" />
+        <option value="$PROJECT_DIR$/zhilian2/pipelines.py" />
+        <option value="$PROJECT_DIR$/btree.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="205" />
+    <option name="y" value="14" />
+    <option name="width" value="1057" />
+    <option name="height" value="697" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="zhilian21" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhilian21" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhilian21" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhilian21" type="462c0819:PsiDirectoryNode" />
+              <item name="zhilian2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\spider\zhilian21\zhilian2\spiders\Internet" />
+      <recent name="D:\python\spider\zhilian21\zhilian2\spiders\python" />
+      <recent name="D:\python\spider\zhilian21\zhilian2\spiders" />
+      <recent name="D:\python\spider\zhilian21\zhilian2\spiders\java" />
+      <recent name="D:\python\spider\zhilian21\zhilian2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python\spider\zhilian21" />
+      <recent name="D:\python\spider\zhilian21\zhilian2\spiders\ui" />
+      <recent name="D:\python\spider\zhilian21\zhilian2\spiders\java" />
+      <recent name="D:\python\spider\zhilian21\zhilian2\spiders" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.btree">
+    <configuration name="btree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="zhilian2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/btree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="zhilian2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zhilian2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\python\spider\zhilian21\zhilian2\run_xici.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="zhilian2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zhilian2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zhilian2/run_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spider (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="zhilian2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zhilian2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zhilian2/spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="zhilian2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zhilian2/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zhilian2/spiders/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.btree" />
+        <item itemvalue="Python.run_spider" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.spider (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aae0ff57-cd21-47ad-8e71-798977aac058" name="Default Changelist" comment="" />
+      <created>1553248154770</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553248154770</updated>
+      <workItem from="1553248156416" duration="6940000" />
+      <workItem from="1553257771319" duration="13881000" />
+      <workItem from="1553420593192" duration="359000" />
+      <workItem from="1553475049652" duration="43756000" />
+      <workItem from="1553585061140" duration="6396000" />
+      <workItem from="1553592448072" duration="21991000" />
+      <workItem from="1553673287949" duration="76000" />
+      <workItem from="1553860026582" duration="6509000" />
+      <workItem from="1553909359782" duration="2518000" />
+      <workItem from="1553912308854" duration="13601000" />
+      <workItem from="1553993611421" duration="13478000" />
+      <workItem from="1554079353388" duration="11904000" />
+      <workItem from="1554167297762" duration="2134000" />
+      <workItem from="1554273658632" duration="35715000" />
+      <workItem from="1554368816317" duration="18757000" />
+      <workItem from="1554459692435" duration="209000" />
+      <workItem from="1554462224282" duration="1428000" />
+      <workItem from="1554617176109" duration="3005000" />
+      <workItem from="1554688011890" duration="10917000" />
+      <workItem from="1554770446275" duration="33695000" />
+      <workItem from="1554859325133" duration="32101000" />
+      <workItem from="1554944044881" duration="7680000" />
+      <workItem from="1554966052324" duration="3469000" />
+      <workItem from="1555030102922" duration="2042000" />
+      <workItem from="1555036065378" duration="453000" />
+      <workItem from="1555037047326" duration="1027000" />
+      <workItem from="1555060076090" duration="635000" />
+      <workItem from="1555130753560" duration="1106000" />
+      <workItem from="1555161666955" duration="4798000" />
+      <workItem from="1555291283395" duration="5224000" />
+      <workItem from="1555335445403" duration="71000" />
+      <workItem from="1555338021691" duration="623000" />
+      <workItem from="1555375684388" duration="5848000" />
+      <workItem from="1555461301516" duration="334000" />
+      <workItem from="1555511798910" duration="780000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="313460000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="205" y="14" width="1057" height="697" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22467402" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32786885" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="4" weight="0.35523978" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32733223" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.35737705" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.39344263" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.3295082" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.098335855" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="4" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32733223" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.3371522" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.30605564" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/ui/ui_qd.py" />
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/ui/ui_sh.py" />
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/ui/ui_sjz.py" />
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/ui/ui_suz.py" />
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/ui/ui_sy.py" />
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/ui/ui_sz.py" />
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/ui/ui_tj.py" />
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/ui/ui_wh.py" />
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/ui/ui_wx.py" />
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/ui/ui_xa.py" />
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/ui/ui_xm.py" />
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/ui/ui_zz.py" />
+    <entry file="file://$PROJECT_DIR$/zhilian2/run_xici.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/citys.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_analysis/good/apps.py" />
+    <entry file="file://$PROJECT_DIR$/data_analysis/good/models.py" />
+    <entry file="file://$PROJECT_DIR$/data_analysis/good/serializers.py" />
+    <entry file="file://$PROJECT_DIR$/data_analysis/good/tests.py" />
+    <entry file="file://$PROJECT_DIR$/data_analysis/good/urls.py" />
+    <entry file="file://$PROJECT_DIR$/data_analysis/templates/dataset-series-layout-by.html" />
+    <entry file="file://$PROJECT_DIR$/data_analysis/templates/map-polygon.html" />
+    <entry file="file://$PROJECT_DIR$/data_analysis/templates/test.html" />
+    <entry file="file://$PROJECT_DIR$/data_analysis/good_proj/wsgi.py" />
+    <entry file="file://$PROJECT_DIR$/data_analysis/good_proj/settings.py" />
+    <entry file="file://$PROJECT_DIR$/data_analysis/templates/bar-tick-align.html" />
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/yj15736623778/Files/index(1).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="1139" selection-start-line="1139" selection-end-line="2042" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_analysis/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/data_analysis/good/views.py" />
+    <entry file="file://$PROJECT_DIR$/data_analysis/good_proj/urls.py" />
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/Internet/java.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="90" column="55" selection-start-line="90" selection-start-column="55" selection-end-line="90" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/Internet/meigong.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="90" column="55" selection-start-line="90" selection-start-column="55" selection-end-line="90" selection-end-column="55" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/Internet/php.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="90" column="55" selection-start-line="90" selection-start-column="55" selection-end-line="90" selection-end-column="55" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/Internet/UI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="90" column="55" selection-start-line="90" selection-start-column="55" selection-end-line="90" selection-end-column="55" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/Internet/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="90" column="55" selection-start-line="90" selection-start-column="55" selection-end-line="90" selection-end-column="55" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/Internet/zhilian_zp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/Internet/sdxl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="90" column="55" selection-start-line="90" selection-start-column="55" selection-end-line="90" selection-end-column="55" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/Internet/web_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="19" lean-forward="true" selection-end-line="76" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/Internet/android.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="92" column="25" selection-end-line="106" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/Internet/java_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="71" column="78" selection-end-line="76" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/Internet/python_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="65" column="25" lean-forward="true" selection-end-line="76" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/Internet/phpall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="69" column="38" lean-forward="true" selection-end-line="76" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/Internet/uiall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="14" selection-end-line="76" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/Internet/androidall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1585">
+          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/run_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="119" selection-start-line="118" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/Internet/python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1375">
+          <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/spiders/Internet/suanfagcs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="44" selection-start-line="44" selection-end-line="44" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhilian2/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="234" column="41" lean-forward="true" selection-start-line="234" selection-start-column="30" selection-end-line="234" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

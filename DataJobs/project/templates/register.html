@@ -1,0 +1,257 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+    {% load static %}
+<script id="allmobilize" charset="utf-8" src="{% static "js/allmobilize.min.js"%}"></script>
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link rel="alternate" media="handheld"  />
+<!-- end 云适配 -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>注册</title>
+<meta property="qc:admins" content="23635710066417756375" />
+
+<meta content="数据jobs是互联网领域的新型招聘网站,互联网职业机会尽在数据jobs" name="description">
+
+<script type="text/javascript">
+var ctx = "h";
+console.log(1);
+</script>
+
+<link rel="stylesheet" type="text/css" href="{% static "css/style.css"%}"/>
+
+<script src="{% static "js/jquery.1.10.1.min.js"%}" type="text/javascript"></script>
+
+<script type="text/javascript" src="{% static "js/jquery.lib.min.js"%}"></script>
+<script type="text/javascript" src="{% static "js/core.min.js"%}"></script>
+
+
+<script type="text/javascript">
+var youdao_conv_id = 271546; 
+</script> 
+<script type="text/javascript" src="{% static "js/conv.js"%}"></script>
+</head>
+
+<body id="login_bg">
+	<div class="login_wrapper">
+		<div class="login_header">
+        	<div id="registerh1"><h1 style="color: #ebebeb">一切尽在数据Jobs</h1>
+			</div>
+            <div id="cloud_s"><img src="{% static "images/cloud_s.png"%}" width="81" height="52" alt="cloud" /></div>
+            <div id="cloud_m"><img src="{% static "images/cloud_m.png"%}" width="136" height="95"  alt="cloud" /></div>
+        </div>
+        
+    	<input type="hidden" id="resubmitToken" value="" />
+		<div class="login_box" style="position:absolute; height:500px; overflow:auto;margin-top: 20px " >
+        	<form id="loginForm">
+        		<ul class="register_radio clearfix">
+		            <li>
+		            	找工作
+		              	<input type="radio" value="0" name="type" /> 
+		            </li>
+		            <li>
+						招人
+		              	<input type="radio" value="1" name="type" /> 
+		            </li>
+		        </ul> 
+            	<input type="text" id="email" name="email" tabindex="1" placeholder="请输入常用邮箱地址" />
+                <span class="error" style="display:none;" id="beError"></span><br>
+                <input type="password" id="password" name="password" tabindex="2" placeholder="请输入密码" />
+
+				<input type="text" id="name" name="name" placeholder="请输入用户名"><br>
+				<input type="text" id="sex" name="sex" placeholder="性别,如男"><br>
+				<input type="text" id="phone" name="phone" placeholder="电话号码"><br>
+				<input type="text" id="qq" name="qq" placeholder="QQ号码"><br>
+                <span class="error" style="display:none;" id="beError1"></span><br>
+				<input type="text" id="xueli" name="xueli" placeholder="学历"><br>
+				<input type="text" id="birthday" name="birthday" placeholder="出生日期,如1995.01.01"><br>
+				<input type="text" id="shool" name="shool" placeholder="毕业院校"><br>
+				<input type="text" id="jiguan" name="jiguan" placeholder="籍贯，如四川省成都市"><br>
+                <label class="fl registerJianJu" for="checkbox">
+           		</label>
+            	<input type="checkbox" id="checkbox" name="checkbox" class="checkbox valid" />我已阅读并同意
+				<a href="//h/privacy.html" target="_blank">《数据Jobs用户协议》</a>
+                <input type="submit" id="submitLogin" value="注 &nbsp; &nbsp; 册" />
+                <input type="hidden" id="callback" name="callback" value=""/>
+                <input type="hidden" id="authType" name="authType" value=""/>
+                <input type="hidden" id="signature" name="signature" value=""/>
+                <input type="hidden" id="timestamp" name="timestamp" value=""/>
+            </form>
+            <div class="login_right">
+            	<div>已有数据Jobs帐号</div>
+            	<a  href="/login.html"  class="registor_now">直接登录</a>
+                <div class="login_others">使用以下帐号直接登录:</div>
+                <a  href="/h/ologin/auth/sina.html"  target="_blank" class="icon_wb" title="使用新浪微博帐号登录"></a>
+               	<a  href="/h/ologin/auth/qq.html"  class="icon_qq" target="_blank" title="使用腾讯QQ帐号登录" ></a>
+            </div>
+        </div>
+        <div class="login_box_btm"></div>
+    </div>
+    
+    <script type="text/javascript">
+    $(document).ready(function(e) {
+    	$('.register_radio li input').click(function(e){
+    		$(this).parent('li').addClass('current').append('<em></em>').siblings().removeClass('current').find('em').remove();
+    	});
+
+    	$('#email').focus(function(){
+    		$('#beError').hide();
+    	});
+    	//验证表单
+	    	 $("#loginForm").validate({
+	    	        rules: {
+	    	        	type:{
+	    	        		required: true
+	    	        	},
+			    	   	email: {
+			    	    	required: true,
+			    	    	email: true
+			    	   	},
+			    	   	password: {
+			    	    	required: true,
+			    	    	rangelength: [6,16]
+			    	   	},
+                        name:{
+	    	        	    required:true,
+                            rangelength:[2,12]
+                        },
+                        sex:{
+	    	        	    required:true,
+                            rangelength:[1,2]
+                        },
+                        phone:{
+	    	        	    required:true,
+                            rangelength:[11,12]
+                        },
+                        qq:{
+	    	        	    required:true,
+                            rangelength:[5,12]
+                        },
+                         xueli:{
+	    	        	    required:true,
+                            rangelength:[2,12]
+                        },
+                        birthday:{
+	    	        	    required:true,
+                        },
+                        shool:{
+	    	        	    required:true,
+                            rangelength:[4,50]
+                        },
+                        jiguan:{
+	    	        	    required:true,
+                            rangelength:[6,50]
+                        },
+			    	   	checkbox:{required:true}
+			    	},
+			    	messages: {
+			    		type:{
+	    	        		required:"请选择使用数据Jobs的目的"
+	    	        	},
+			    	 	email: {
+			    	    	required: "请输入常用邮箱地址",
+			    	    	email: "请输入有效的邮箱地址，如：yangjin@sjjs.com"
+			    	   	},
+			    	   	password: {
+			    	    	required: "请输入密码",
+			    	    	rangelength: "请输入6-16位密码，字母区分大小写"
+			    	   	},
+                        name: {
+			    	    	required: "请输入真实姓名",
+			    	    	rangelength: "如'张三'或'tom'"
+			    	   	},
+                         sex: {
+			    	    	required: "请输入性别",
+			    	    	rangelength: "请输入1个汉字"
+			    	   	},
+                        phone: {
+			    	    	required: "请输入电话号码",
+			    	    	rangelength: "请输入11位的手机号码"
+			    	   	},
+                        qq: {
+			    	    	required: "请输入QQ号码",
+			    	    	rangelength: "请输入5-12位的QQ号码"
+			    	   	},
+                        xueli: {
+			    	    	required: "请输入学历",
+			    	    	rangelength: "如'本科'"
+			    	   	},
+                        birthday: {
+			    	    	required: "请输入出生日期",
+			    	    	rangelength: "请输入10位的出生日期"
+			    	   	},
+                        shool: {
+			    	    	required: "请输入毕业院校",
+			    	    	rangelength: "如'四川大学'"
+			    	   	},
+                        jiguan: {
+			    	    	required: "请输入籍贯",
+			    	    	rangelength: "如'四川省成都市'"
+			    	   	},
+			    	   	checkbox: {
+			    	    	required: "请接受数据Jobs用户协议"
+			    	   	}
+			    	},
+			    	errorPlacement:function(label, element){/*
+			    		if(element.attr("type") == "radio"){
+			    			label.insertAfter($(element).parents('ul')).css('marginTop','-20px');
+			    		}else if(element.attr("type") == "checkbox"){
+			    			label.inserresult.contenttAfter($(element).parent()).css('clear','left');
+			    		}else{
+			    			label.insertAfter(element);
+			    		} */
+			    		/*modify nancy*/
+			    		if(element.attr("type") == "radio"){
+			    			label.insertAfter($(element).parents('ul')).css('marginTop','-20px');
+			    		}else if(element.attr("type") == "checkbox"){
+			    			label.insertAfter($(element).parent()).css('clear','left');
+			    		}else{
+			    			label.insertAfter(element);
+			    		};
+			    	},
+			    	submitHandler:function(form){
+			    		var type =$('input[type="radio"]:checked',form).val();
+			    		var email = $("#email");
+                        var password = $("#password");
+                        var name = $("#name");
+                        var sex = $("#sex");
+                        var phone = $("#phone");
+                        var qq = $("#qq");
+                        var xueli = $("#xueli");
+                        var birthday = $("#birthday");
+                        var shool = $("#shool");
+                        var jiguan = $("#jiguan");
+			    		var resubmitToken = $('#resubmitToken').val();
+			    		var callback = $('#callback').val();
+			    		var authType = $('#authType').val();
+			    		var signature = $('#signature').val();
+			    		var timestamp = $('#timestamp').val();
+
+			    		$(form).find(":submit").attr("disabled", true);
+
+			            $.ajax({
+			            	type:'POST',
+			            	data: {'email':email.val(),'password': password.val(), 'name': name.val(), 'sex': sex.val(), 'phone': phone.val(), 'qq': qq.val(), 'xueli': xueli.val(), 'birthday': birthday.val(), 'shool': shool.val(), 'jiguan': jiguan.val(),type:type,resubmitToken:resubmitToken, callback:callback, authType:authType, signature:signature, timestamp:timestamp},
+			            	url:'/user/register',
+			            	dataType:'json',
+			            }).done(function(result) {
+		            		$('#resubmitToken').val(result.resubmitToken);
+			            	if(result.success){
+			            		window.location.href='/tips.html';
+			            	}else{
+			            	    if(result.msg){
+			            	        $('#beError').text(result.msg).show();
+                                }
+								if(result.msg1) {
+								    $('#beError1').text(result.msg1).show();
+                                }
+
+			            	}
+			            	$(form).find(":submit").attr("disabled", false);
+			            });
+			        }
+	    	});
+    });
+    </script>
+</body>
+</html>

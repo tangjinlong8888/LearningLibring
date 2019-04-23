@@ -1,0 +1,34 @@
+<view class="container">
+  <image src="/images/my/my@bg.png" class="bg"></image>
+  <img-btn-cmp wx:if="{{!hasUserInfo}}" open-type="getUserInfo" class="avatar-position" bind:getuserinfo="onGetUserInfo">
+     <image slot="img" class="avatar" src="/images/my/my.png" /> 
+  </img-btn-cmp>
+  <view class="avatar-container avatar-position">
+    <image src="{{userInfo.avatarUrl}}" wx:if="{{hasUserInfo}}" class="avatar" />
+    <open-data wx:if="{{hasUserInfo}}" type="userNickName"></open-data>
+  </view>
+  <view class="about-container">
+    <view bind:tap="onJumpToAbout" class="about-us">
+      <image src="/images/my/about.png" />
+      <text class="description">关于我们</text>
+    </view>
+    <view class="about-us">
+      <text class="book-num">{{likeData.length}}</text>
+      <text class="description">我喜欢的</text>
+    </view>
+  </view>
+
+  <!-- 所有点击喜欢的界面展示 -->
+  <view class="like-container">
+    <image class=".headline" src="/images/my/like.png" />
+    <view class="likes-container">
+      <block wx:for="{{likeData}}" wx:key=""> 
+        <view bind:tap='goDetail' data-inf='{{item}}' class="first-container">
+          <view class="type">{{item.type}}</view>
+          <image class='content-image' src='{{item.image}}'></image>
+          <view class='like-content'>{{item.content}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

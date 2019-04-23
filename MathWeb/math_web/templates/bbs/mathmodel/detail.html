@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>detail</title>
+</head>
+<body>
+{% extends "main/base.html" %}
+{% load bootstrap3 %}
+{% load comments %}
+{% block header%}
+    <div class="jumbotron">
+        <h3>{{ article.title }}</h3>
+        <a href="{% url "bbs:commit"%}" class="btn btn-primary" role="button" style="float: right">跟帖</a>
+
+    </div>
+{% endblock %}
+{% block content %}
+    {{ article.content|safe }}
+    <hr>
+    {% render_comment_list for article %}
+
+{% endblock %}
+</body>
+</html>

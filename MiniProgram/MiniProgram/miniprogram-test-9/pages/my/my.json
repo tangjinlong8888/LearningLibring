@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "img-btn-cmp": "/components/image-button/index",
+    "tag-cmp": "/components/tag/index"
+  },
+  "backgroundColor": "#f5f5f5"
+}

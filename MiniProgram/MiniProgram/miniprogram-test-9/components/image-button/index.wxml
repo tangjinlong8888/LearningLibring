@@ -1,0 +1,4 @@
+<button bind:getuserinfo="onGetUserInfo" open-type='{{openType}}'  plain='{{true}}' class="container">
+  <!-- 可以在wxml中替换组件 -->
+  <slot name="img"></slot>
+</button>

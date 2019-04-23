@@ -1,0 +1,24 @@
+<!-- 这是主界面 -->
+<view class='container'>
+  <view class='header'>
+
+    <v-epsoide index='{{classic.data.index}}'></v-epsoide>
+    <view class='headerTop'>
+      <!-- 引用like自定义组件 -->
+      <v-like bind:like="onLike" count="{{classic.data.id}}"></v-like>
+      <!-- 引用自定义分享组件 -->
+      <v-img-btn class="share-btn" open-type="share">
+        <image class="share" slot="img" src="/images/icon/share.png" />
+      </v-img-btn>
+    </view>
+    
+  </view>
+
+  <!-- 展示自动自组件movie -->
+  <v-movie img="{{classic.data.url}}" content='{{classic.data.content}}'></v-movie> 
+  <!-- 引用自定义导航组件,并向组件的属性传递数据 -->
+  <v-navi bind:left='onNext' bind:right='onPrevious' title='{{classic.data.title}}' class='navi'></v-navi>
+  
+</view>
+
+

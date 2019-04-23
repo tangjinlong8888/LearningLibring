@@ -1,0 +1,148 @@
+.container{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.bg{
+  width:750rpx;
+  height:574rpx;
+}
+
+.avatar-position{
+  position:absolute; 
+  top:255rpx;
+}
+
+.my-img{
+  width:120rpx;
+  height:120rpx;
+}
+
+.avatar-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar{
+  width:120rpx;
+  height:120rpx;
+  border-radius: 50%;
+  /* margin-bottom: 10rpx; */
+}
+
+.about-container{
+  padding: 0 100rpx;
+  width:550rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position:absolute;
+  top:440rpx;
+}
+
+.about-us image{
+  width:34rpx;
+  height:34rpx;
+}
+.preview-container{
+  margin-top:30rpx;
+  display: flex;
+  flex-direction: row;
+  padding:0 30rpx;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.preview{
+  margin-bottom: 30rpx;
+}
+.about-us{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.book-num{
+  font-size:36rpx;
+  color:#000000;
+}
+
+.description{
+  font-size:24rpx;
+  color:#999999;
+}
+
+.about-container > view:nth-child(2){
+  margin-top: -5rpx;
+}
+
+.like-container{
+  /* margin-top:30rpx; */
+  width:100%;
+  margin-top: -13rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+.likes-container{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color:#f5f5f5;
+  position: relative;
+  left:35rpx;
+  }
+
+.headline{
+  margin-top:30rpx;
+  width:97rpx;
+  height:42rpx;
+}
+
+.study{
+  width:88rpx;
+  height:88rpx;
+  position: absolute;
+  top:40rpx;
+  right:45rpx;
+}
+
+.test{
+  background-color: red !important;
+  border-radius: 15px !important;
+}
+
+.first-container{
+  display: flex;
+  flex-direction: column;
+  width: 280rpx;
+  height:450rpx;
+  background-color:#fff;
+  margin: 30rpx;
+}
+
+.type{
+  width:80rpx;
+  height:40rpx;
+  text-align: center;
+  font-size: 30rpx;
+  background-color: #f5f5f5;
+  margin: 10rpx;
+}
+.content-image{
+  width:280rpx;
+  height:350rpx;
+}
+.like-content{ 
+  height:50rpx;
+  margin-top:10rpx;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

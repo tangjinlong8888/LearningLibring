@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>new_entry</title>
+</head>
+<body>
+    {% extends "note/base.html" %}
+    {% block content %}
+        <p><a href="{% url 'note:topic' topic.id %}">{{ topic }}</a></p>
+        <p>Add a new note:</p>
+        <form action="{% url 'note:new_entry' topic.id %}" method='post'>
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button name='submit'>添加</button>
+        </form>
+    {% endblock %}
+</body>
+</html>

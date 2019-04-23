@@ -1,0 +1,18 @@
+
+[ Changefocus:6028-mintty.exe-MINGW64:/]
+EReturn
+Back
+CDSpace
+Back
+Back
+Lshift
+CDSpace
+EReturn
+
+[ Changefocus:6028-mintty.exe-MINGW64:/e]
+CDSpace
+KETab
+Return
+
+[ Changefocus:6028-mintty.exe-MINGW64:/e/key]
+LSReturn

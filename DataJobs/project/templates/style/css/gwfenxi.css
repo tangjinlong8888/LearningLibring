@@ -1,0 +1,33 @@
+.job-img{
+    float:left;
+    width:82%;
+    margin-left:110px ;
+    background: #fafafa;
+    margin-bottom: 50px;
+}
+.job-img p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
+    color: #445552;
+    font-family: "微软雅黑","宋体",Arial;
+}
+.job-img p:hover{
+    color: #019875;
+}
+.job-img div{
+    display: inline-block;
+    margin-left:30px;
+}
+.job-img img{
+    width:380px;
+    height:240px;
+    margin: 30px 10px 50px 0px;
+}
+.job-img div{
+    color: #008264;
+}
+.job-img img:hover{
+    opacity:0.6; filter: alpha(opacity=70);
+}
